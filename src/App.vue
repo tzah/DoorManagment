@@ -19,3 +19,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+.border {
+  border: red 2px solid;
+}
+</style>

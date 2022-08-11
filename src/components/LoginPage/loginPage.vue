@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="background">
     <img
       src="../../assets/background/big_circle_right.svg"
       class="big_circle_right"
@@ -19,11 +19,14 @@
       />
       <img src="../../assets/background/small_top.svg" class="small_top" />
     </div>
+    <login-form />
   </div>
 </template>
 
 <script>
+import loginForm from "./loginForm.vue";
 export default {
+  components: { loginForm },
   name: "loginPage",
 };
 </script>
